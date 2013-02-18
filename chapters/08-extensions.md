@@ -64,7 +64,6 @@ Consider the code that it typically requires to render a view with Backbone and 
     <span><%= email %></span>
   </div>
 </script>
-</pre>
 ```
 
 ```javascript
@@ -118,7 +117,7 @@ var MyView = Marionette.ItemView.extend({
 });
 ```
 
-And that's it - that's all you need to get the exact same behaviour as the previous view implementation. Just replace `Backbone.View.extend` with `Marionette.ItemView.extend`, then get rid of the `render` method. You can still create the view instance with a `model`, call the `render` method on the view instance, and display the view in the DOM the same way that we did before. But the view definition has been reduced to a single line of configuration for the template.
+And that's it - that's all you need to get the exact same behavior as the previous view implementation. Just replace `Backbone.View.extend` with `Marionette.ItemView.extend`, then get rid of the `render` method. You can still create the view instance with a `model`, call the `render` method on the view instance, and display the view in the DOM the same way that we did before. But the view definition has been reduced to a single line of configuration for the template.
 
 ### Memory Management
 
